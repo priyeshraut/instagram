@@ -1,0 +1,80 @@
+@media  screen and (max-width: 1024px) {
+    .right-section {
+        display: none;
+    }
+
+    .nav-bar a p {
+        display: none;
+    }
+
+    .nav-bar .insta_logo {
+        display: none;
+    }
+
+    .nav-bar .insta_logo-2  {
+        display: flex;
+    }
+}
+
+@media  screen and (max-width: 425px) {
+    .left-section {
+        display: none;
+    }
+
+    .middle-profile img {
+        width: 90px;
+    }
+
+    .middle-profile-section,
+    .middle-profile-like_comment_share_text p,
+    .middle-profile-like_comment_share_text-flex {
+        width: 100%;
+    }
+
+    .middle-profile-display,
+    .middle-profile-like_comment_share,
+    .middle-profile-like_comment_share_text p,
+    .middle-profile-like_comment_share_text-flex {
+        width: 90%;
+    }
+
+    .middle-profile-post-img,
+    .middle-profile-post-video,
+    .mySlides img {
+        height: 100%;
+        width: 100%;
+    }   
+
+    .middle-profile-post img,
+    .middle-profile-post video {
+        width: 100%;
+    }
+
+    .middle-navbar {
+        display: flex;
+        width: 100%;
+    }
+
+    .middle-section {
+        top: 0;
+    }
+
+    .bottom-navbar-section {
+        display: flex;
+        width: 100%;
+    }
+
+    .middle-profile-section {
+        border-bottom: none;
+    }
+
+    .tooltrip-edit input, .tooltrip-edit .tooltrip img {
+        display: none;
+    }
+
+    .wrapper i {
+        display: none;
+    }
+}
+
+
